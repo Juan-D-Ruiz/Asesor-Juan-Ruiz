@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #12a76e;
+    background-color: #072145;
     color: #333;
 }
 
@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px 50px;
+    padding: 10px 100px;
     background-color: #ffffff;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     position: fixed; /* Mantiene el menú pegado arriba */
@@ -31,7 +31,7 @@ body {
     padding: 15px;
     background-color: #ffffff;
     border: 2px dashed #999;
-    color: #555;
+    color: #D8B264;
     font-weight: bold;
     font-size: 14px;
 }
@@ -39,10 +39,9 @@ body {
 nav ul {
     list-style: none;
     display: flex;
-    font-size: 18px;
+    font-size: 20px;
     gap: 25px;
 }
-
 
 .btn-integra {
     text-decoration: none;
@@ -59,28 +58,32 @@ nav ul {
     align-items: center;
     justify-content: space-between;
     padding: 160px 50px 100px 50px; /* Espacio superior para que el menú no tape el texto */
-    background-color: #12a76e;
+    background-color: #072145;
     min-height: 100vh;
 }
 
 .hero-content {
     max-width: 100%;
+    
 }
 
 .hero-content h2 {
     font-size: 30px;
-    color: #1a1a1a;
+    color: #D8B264;
     margin-bottom: 20px;
     line-height: 1.2;
 }
 
 .hero-content p {
     font-size: 18px;
-    color: #d8d8d8;
+    color: #D8B264;
     margin-bottom: 35px;
     line-height: 1.5;
 }
-
+.hero ul li{
+    font-size: 25px;
+    color:#D8B264
+}
 .hero-buttons {
     display: flex;
     gap: 15px;
@@ -109,6 +112,7 @@ nav ul {
 /* Caja simulada para la imagen principal */
 .hero-image-container {
     width: 70%;
+    justify-content: center;
     display: flex;
     justify-content: left;
 }
@@ -129,7 +133,7 @@ nav ul {
 }
 /* --- SECCIÓN DE CONTACTO --- */
 .contact-section {
-    background-color: #12a76e; /* Fondo oscuro para el final de la página */
+    background-color: #072145; /* Fondo oscuro para el final de la página */
     padding: 60px 20px;
     display: flex;
     justify-content: center;
