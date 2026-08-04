@@ -225,3 +225,35 @@ body {
 .btn-submit:hover {
     background-color: #013a24;
 }
+/* --- Estilos para el Botón de WhatsApp --- */
+.btn-whatsapp {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background-color: #25D366; /* Verde oficial de WhatsApp */
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    margin-top: 15px;
+}
+
+.btn-whatsapp:hover {
+    background-color: #1ebe57;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(37, 211, 102, 0.4);
+}
+
+.whatsapp-icon-btn {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    /* Si tu imagen 'icono2blanco.jpg' tiene fondo y quieres que sea redonda, descomenta la siguiente línea */
+    /* border-radius: 50%; */
+}
